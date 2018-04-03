@@ -1,0 +1,98 @@
+#title {
+	/*padding: 0px;
+	margin: 0px;*/
+	text-align: center;
+	color: #FF3030;
+	}
+#conten {
+	/*width: 100%;*/
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	height: 600px;
+	padding: 10px 10px ;
+	padding-bottom: 0px;
+	}
+#conten_left {
+	width: 50%;
+	background-color: #330000;
+	float: left;
+	padding-left: 10px;]
+	padding-right: 10px;
+	margin-right: : 10px;
+	padding-bottom: 18px;
+}
+#conten_right {
+	width: 45%;
+	background-color: #220000;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+}
+#div1 {
+	width: 30%;
+	background-color: #00CC00;
+	float: left;
+	padding: 20px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 70px;
+}
+#div2 {
+	width: 30%;
+	background-color: #FF99FF;
+	float: left;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 20px;
+	padding-bottom: 16px;
+}
+#div3 {
+	width: 30%;
+	background-color: #339900;
+	float: left;
+	padding: 10px 10px 70px;
+	/*padding-top: 0px;
+	padding-left: 10px;*/
+	padding-right: 10px;
+}
+#div4 {
+	width: 25%;
+	background-color: #97FFFF;
+	float: left;
+	padding: 10px;
+	padding-right: 10px;
+	padding-bottom: 75px;
+}
+#div5 {
+	width: 25%;
+	background-color:#FFA500 ;
+	padding:10px ;
+	float: left;
+	padding-right: ;
+	padding-bottom:75px ;
+}
+#div6 {
+	width: 25%;
+	background-color:#8B5A00 ;
+	padding:5px ;
+	float: left;
+	padding-right: ;
+	padding-bottom:80px ;
+}
+#div7 {
+	width: 20%;
+	background-color:#8B4500 ;
+	padding:5px ;
+	float: left;
+	padding-right: ;
+	padding-bottom:5px;
+}
+.label_song {
+	color: #550000;
+}
+.lyric_song {
+	color:#F8F8FF ;
+}
