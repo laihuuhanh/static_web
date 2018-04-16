@@ -1,0 +1,49 @@
+
+h1 {
+    color: black;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px grey;
+    font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 13px;
+    font-family: Verdana,sans-serif;
+}
+table.table, .table th, .table td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+table {
+    width:100%;
+}
+table,th,td {
+    border:10px solid gray;
+    border-collapse: collapse;
+}
+th,td {
+    padding:7px;
+    padding-top: 15px;
+}
+th {
+    background-color: #008040;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #F0F0F0;
+}
+tr:hover {
+    background-color: #ddd;
+}
+.bieumau_nutxem a {
+	padding: 10px 10px;
+	background-color: #73AD21;
+   /* padding: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    background-color: #73AD21;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;*/
+}
