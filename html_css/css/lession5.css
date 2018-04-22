@@ -149,23 +149,7 @@ body{
     width: 293px;
     margin-right: 30px;
     height:200px ;
-    border: 1px solid black;
-}
-.sidebar .widget, .sidebar-middle .widget {
-    background-color: #FFF;
-}
-style.css?ver=1.0:557
-.sidebar .widget, .sidebar-middle .widget {
-    width: 250px;
-    padding: 0 24px 20px 24px;
-    margin-bottom: 30px;
-    border: 1px solid #e1e6f0;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
-}
-style.css?ver=1.0:70
-* {
-    margin: 0;
-    padding: 0;
+    border: 1px solid black; 
 }
 .center_top {
     background-color: black;
@@ -181,9 +165,16 @@ style.css?ver=1.0:70
 .searchform2{
     padding: 10px;
 }
+.content_bottom_img {
+    background-image: url(../img/frank-holleman-498596-unsplash-950x634.jpg);
+    width: 293px;
+    height: 162px;
+   margin-top: 100px;
+
+}
 .content_bottom {
+    width: 800px;
     border: 1px solid #000;
-    height: 200px;
     margin-top: 100px;
 
 }
