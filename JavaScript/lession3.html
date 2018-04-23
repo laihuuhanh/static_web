@@ -2,13 +2,30 @@
 <html>
 <head>
     <title>javaScript</title>
+    <script type="text/javascript">
+    	var student = {
+		name: 'hanh',
+		age: 21,
+		learn:function () {
+		alert('tui dang hoc bai')
+			}
+		}
+    </script>
+
 </head>
 <body>
     <h2>Tài liệu học HTML</h2>
-   <h3 id="typeData1"></h3>
-   <h3 id="typeData2"></h3>
    <h4>My profile</h4>
-   <p id="my-profile"></p>
+   <button onclick="getMyProFile('hanh', 21, 'hoc vien');">show myProfile</button>
+   <button onclick="hideMyProFile()">Hide my profile</button>
+   <p id="MyProFile"></p>
+   <h3>
+   	Student:
+   </h3>
+   <button onclick="getNameStudent(student)">ten cua sutudent</button>
+   <button onclick="getAgeStudent(student)">tuoi cua student</button>
+   <button onclick="learning(student)">toi dang hoc bai</button>
+   <p id="student"></p>
 
     <script src="./js/lession3.js"></script>
 </body>

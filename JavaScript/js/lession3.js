@@ -1,14 +1,19 @@
-	function introProfile() {
-		var name = 'Hanh';
-		var age = 21;
-		var job = 'long bong';
+function getMyProFile (name, age, job) {
+	var MyProFile = 'toi ten la '+ name + ',toi' + age + 'toi . toi la mot' + job;
+	document.getElementById('MyProFile').innerHTML = MyProFile;
+}
+function hideMyProFile() {
+	document.getElementById('MyProFile').innerHTML = '';
+}
 
-		return 'toi ten la '+ name + ',toi' + age + 'toi . toi la mot' + job;
-	}
-	function introProfile2 (name, age, job ) {
-		return 'toi ten la '+ name + ', toi ' + age + ' tuoi . toi la mot ' + job;
-	}
-	var result = introProfile();
-	document.getElementById('my-profile').innerHTML = result;
-	var result = introProfile2( 'Hanh',22, 'hoc vien' );
-	document.getElementById('my-profile').innerHTML = result;
+function getNameStudent(student){
+	var name = student.name;
+	document.getElementById('student').innerHTML = name;
+}
+function getAgeStudent(student){
+	var age = student.age;
+	document.getElementById('student').innerHTML = age;
+}
+function learning(student) {
+	student.learn();
+} 
