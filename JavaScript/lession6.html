@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lập Trình Web</title>
+   	<style type="text/css">
+        #demo{
+            width:300px;
+            height:200px;
+            background-color:gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Events</h2>
+
+    <button onclick="clickMe();">Click me</button>
+    <button ondblclick="doubleClickMe();">Double Click Me</button>
+    <button onmouseenter="onMouseEnterMe();">Mouse enter me</button>
+    <button onmouseleave="onMouseLeaveMe();">Mouse leave me</button>
+    <input onkeydown="onKeyDownMe();" />
+    <input onkeyup="onKeyUpMe();" />
+    <span oncopy="copyMe();">copy me</span>
+    <span oncut="cutMe();">cut me</span>
+    <input onpaste="pasteMe();" />
+    <input onchange="changeMe();"/>
+    <button ondblclick="phepTinh()">Xem kết quả</button>
+    <button onclick="hello()">Xin chào</button>
+    <p id="chaoXin"></p>
+    <div id="demo" onmouseenter="this.style.backgroundColor='yellow'" onmouseleave="this.style.backgroundColor='gray'"></div>
+  	 <input type="text" onkeydown="this.style.backgroundColor='pink'" onkeyup=".style.backgroundColor='yellow'" placeholder="gõ ký tự vào đây">
+  	 <textarea cols="50" rows="15" oncopy="alert('Bạn vừa sao chép nội dung của phần tử này')" oncut="alert('Bạn vừa cắt nội dung của phần tử này')" onpaste="alert('Bạn vừa dán nội dung vào phần tử này')">Tài liệu hướng dẫn học lập trình web</textarea>
+    <script src="./js/lession6.js"></script>
+    <input >
+</body>
+
+</html>
