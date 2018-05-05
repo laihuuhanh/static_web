@@ -1,0 +1,28 @@
+!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lập Trình Web</title>
+</head>
+
+<!-- Tạo 2 ô input nhập giá trị min và max của số tạo ra 
+    và 1 button để show ra số random trong khoảng min max đã nhập -->
+
+<body>
+    <h2>Lấy số random</h2>
+    <input id="min" type="text" value="" placeholder="Nhập giá trị nhỏ nhất" />
+    <input id="max" type="text" value="" placeholder="Nhập giá trị lớn nhất" />
+    <br />
+    <p>
+        <button onclick="getRandomNumber();">Lấy giá trị random</button>
+        <input id="result" value="" type="text" disabled />
+    </p>
+
+    <hr />
+    <button onclick="getDate();">Get Current Time</button>
+    <input style="width: 400px;" id="current-time" />
+
+    <script src="./js/lession8.js"></script>
+</body>
+
+</html>
