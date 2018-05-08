@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Đăng ký thành viên</title>
+    <link rel="stylesheet" type="text/css" href="css/lession11.css">
+</head>
+
+<body>
+    <h1>Đăng ký tài khoản</h1>
+    <div class="container">
+        <div class="formData">
+            <input id="fullName" type="text" placeholder="Họ và Tên" name="" />
+            <span id="errorFullName"></span>
+        </div>
+        <div class="formData">
+            <input id="address" type="text" placeholder="Email" name=""/>
+            <span id="errorEmail"></span>
+
+        </div>
+
+        <div class="formData">
+            <input id="phone" type="text" placeholder="Số điện thoại" name=""/>
+            <span id="errorPhone"></span>
+        </div>
+
+        <div class="formData">
+            <input id="pass1" type="text" placeholder="Mật Khẩu" name="" class="half"/>
+            <input id="pass2" type="text" placeholder="Xác nhận mật khẩu" name="" class="half end"/>
+            <span id="errorpass"></span>
+        </div>
+        <div >
+            <button onclick="submitForm();">ĐĂNG KÝ</button>
+         </div>
+
+
+    </div>
+
+    <script src="./js/lession11.js"></script>
+</body>
+
+</html>
